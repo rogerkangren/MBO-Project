@@ -37,8 +37,8 @@ declare @newOfficer_ID int
 declare @newOfficer_StateCountyID int
 declare @NMLS_status nvarchar(10)
 
-set @newOfficer_lo_code = '97835' --int
-set @newOfficer_name = 'Bill Anderson' --nvarchar(50)
+set @newOfficer_lo_code = '81711' --int
+set @newOfficer_name = 'Linda Vera' --nvarchar(50)
 set @newOfficer_State = 'Texas'--nvarchar(50)  --Alabama Arizona California Colorado Florida New Mexico Texas
 set @newOfficer_County = 'Cameron' --nvarchar(50)
 set @newOfficer_County2 = 'Willacy'--nvarchar(50)
@@ -50,15 +50,15 @@ set @newOfficer_County7 = 'Jim Hogg'--nvarchar(50)
 set @newOfficer_County8 = 'Zapata'--nvarchar(50)
 set @newOfficer_County9 = 'Jim Wells'--nvarchar(50)
 set @newOfficer_County10 = 'Duval' --nvarchar(50)
-set @newOfficer_street_address = '115 E Van Buren Harlingen, TX 78550' --nvarchar(max)
-set @newOfficer_office_phone_number = '956-429-8996' --nvarchar(50)
-set @newOfficer_cell_phone_number = '956-429-8996' --nvarchar(50)
-set @newOfficer_fax_number = '205-524-0677' --nvarchar(50)
+set @newOfficer_street_address = '3900 N 10th Street, McAllen, TX 78501 ' --nvarchar(max)
+set @newOfficer_office_phone_number = '956-429-8260' --nvarchar(50)
+set @newOfficer_cell_phone_number = '956-429-8260' --nvarchar(50)
+set @newOfficer_fax_number = '205-524-0495' --nvarchar(50)
 set @newOfficer_site_effective_date = '07/12/2016' --datetime
-set @newOfficer_nmls_originator_id = '1509108' --int
-set @newOfficer_email_address = 'bill.andersonjr@bbva.com ' --nvarchar(50)
-set @newOfficer_main_url = 'mortgage.bbvacompass.com/default.asp?siteId=E84E0FA3-199D-4914-8AA0-59C1BB7A5094' --nvarchar(max)
-set @newOfficer_alias_url = 'http://www.bbvacompass.com/mortgages/banderson' --nvarchar(max)
+set @newOfficer_nmls_originator_id = '761667' --int
+set @newOfficer_email_address = 'linda.vera@bbva.com' --nvarchar(50)
+set @newOfficer_main_url = 'mortgage.bbvacompass.com/default.asp?siteId=60809D01-EBBB-429B-8309-4FC519561A6C' --nvarchar(max)
+set @newOfficer_alias_url = 'http://www.bbvacompass.com/mortgages/lvera' --nvarchar(max)
 set @newOfficer_profile_pic_path = 'https://mortgage.bbvacompass.com/Skins/images/carousel2.jpg' --nvarchar(50)
 set @newOfficer_business_hours = '' --nvarchar(50)
 set @newOfficer_site_status = 'Live' --nvarchar(50)
