@@ -37,29 +37,29 @@ declare @newOfficer_ID int
 declare @newOfficer_StateCountyID int
 declare @NMLS_status nvarchar(10)
 
-set @newOfficer_lo_code = '97924' --int
-set @newOfficer_name = 'Scott Morrison' --nvarchar(50)
-set @newOfficer_State = 'Texas'--nvarchar(50)  --Alabama Arizona California Colorado Florida New Mexico Texas
-set @newOfficer_County = 'Montgomery' --nvarchar(50)
-set @newOfficer_County2 = 'Walker'--nvarchar(50)
-set @newOfficer_County3 = 'Liberty'--nvarchar(50)
-set @newOfficer_County4 = 'Harris'--nvarchar(50)
-set @newOfficer_County5 = 'Waller'--nvarchar(50)
-set @newOfficer_County6 = 'Ft. Bend'--nvarchar(50)
-set @newOfficer_County7 = 'Chambers'--nvarchar(50)
-set @newOfficer_County8 = 'Galveston'--nvarchar(50)
-set @newOfficer_County9 = 'Brazoria'--nvarchar(50)
-set @newOfficer_County10 = '' --nvarchar(50)
-set @newOfficer_street_address = '4868 Garth Road  Suite A, Baytown, TX 77521' --nvarchar(max)
-set @newOfficer_office_phone_number = '281-740-0647' --nvarchar(50)
-set @newOfficer_cell_phone_number = '281-740-0647' --nvarchar(50)
-set @newOfficer_fax_number = '205-524-2161' --nvarchar(50)
-set @newOfficer_site_effective_date = '07/12/2016' --datetime
-set @newOfficer_nmls_originator_id = '314432' --int
-set @newOfficer_email_address = 'scott.morrison@bbva.com ' --nvarchar(50)
-set @newOfficer_main_url = 'mortgage.bbvacompass.com/default.asp?siteId=E9D6CABF-BF78-4C0E-9D4E-B39D2B7A207B' --nvarchar(max)
-set @newOfficer_alias_url = 'http://www.bbvacompass.com/mortgages/smorrison' --nvarchar(max)
-set @newOfficer_profile_pic_path = 'https://mortgage.bbvacompass.com/Skins/images/17006/97924.jpg' --nvarchar(50)
+set @newOfficer_lo_code = '97722' --int
+set @newOfficer_name = 'Gris Gandara' --nvarchar(50)
+set @newOfficer_State = 'California'--nvarchar(50)  --Alabama Arizona California Colorado Florida New Mexico Texas
+set @newOfficer_County = 'San Diego' --nvarchar(50)
+set @newOfficer_County2 = 'Imperial'--nvarchar(50)
+set @newOfficer_County3 = 'San Bernardino'--nvarchar(50)
+set @newOfficer_County4 = 'Orange County'--nvarchar(50)
+set @newOfficer_County5 = 'Los Angeles'--nvarchar(50)
+set @newOfficer_County6 = 'Riverside'--nvarchar(50)
+set @newOfficer_County7 = 'Ventura'--nvarchar(50)
+set @newOfficer_County8 = 'Santa Barbara'--nvarchar(50)
+set @newOfficer_County9 = 'San Luis Obispo'--nvarchar(50)
+set @newOfficer_County10 = 'Kern' --nvarchar(50)
+set @newOfficer_street_address = '40440 Margarita Road Temecula, CA 92591' --nvarchar(max)
+set @newOfficer_office_phone_number = '951-208-9789' --nvarchar(50)
+set @newOfficer_cell_phone_number = '951-208-9789' --nvarchar(50)
+set @newOfficer_fax_number = '205-524-1412' --nvarchar(50)
+set @newOfficer_site_effective_date = '07/19/2016' --datetime
+set @newOfficer_nmls_originator_id = '279197' --int
+set @newOfficer_email_address = 'gris.gandara@bbva.com' --nvarchar(50)
+set @newOfficer_main_url = 'mortgage.bbvacompass.com/default.asp?siteId=571D2088-BEB4-4055-950E-45AB820810DF' --nvarchar(max)
+set @newOfficer_alias_url = 'http://www.bbvacompass.com/mortgages/ggandara' --nvarchar(max)
+set @newOfficer_profile_pic_path = 'https://mortgage.bbvacompass.com/Skins/images/carousel2.jpg' --nvarchar(50)  --https://mortgage.bbvacompass.com/Skins/images/carousel2.jpg
 set @newOfficer_business_hours = '' --nvarchar(50)
 set @newOfficer_site_status = 'Live' --nvarchar(50)
 set @newOfficer_site_expiration_date = null --datetime
