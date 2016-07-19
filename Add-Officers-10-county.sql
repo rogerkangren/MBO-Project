@@ -37,28 +37,28 @@ declare @newOfficer_ID int
 declare @newOfficer_StateCountyID int
 declare @NMLS_status nvarchar(10)
 
-set @newOfficer_lo_code = '97722' --int
-set @newOfficer_name = 'Gris Gandara' --nvarchar(50)
-set @newOfficer_State = 'California'--nvarchar(50)  --Alabama Arizona California Colorado Florida New Mexico Texas
-set @newOfficer_County = 'San Diego' --nvarchar(50)
-set @newOfficer_County2 = 'Imperial'--nvarchar(50)
-set @newOfficer_County3 = 'San Bernardino'--nvarchar(50)
-set @newOfficer_County4 = 'Orange County'--nvarchar(50)
-set @newOfficer_County5 = 'Los Angeles'--nvarchar(50)
-set @newOfficer_County6 = 'Riverside'--nvarchar(50)
-set @newOfficer_County7 = 'Ventura'--nvarchar(50)
-set @newOfficer_County8 = 'Santa Barbara'--nvarchar(50)
-set @newOfficer_County9 = 'San Luis Obispo'--nvarchar(50)
-set @newOfficer_County10 = 'Kern' --nvarchar(50)
-set @newOfficer_street_address = '40440 Margarita Road Temecula, CA 92591' --nvarchar(max)
-set @newOfficer_office_phone_number = '951-208-9789' --nvarchar(50)
-set @newOfficer_cell_phone_number = '951-208-9789' --nvarchar(50)
-set @newOfficer_fax_number = '205-524-1412' --nvarchar(50)
+set @newOfficer_lo_code = '97899' --int
+set @newOfficer_name = 'Kelly Daniels' --nvarchar(50)
+set @newOfficer_State = 'Colorado'--nvarchar(50)  --Alabama Arizona California Colorado Florida New Mexico Texas
+set @newOfficer_County = 'Douglas' --nvarchar(50)
+set @newOfficer_County2 = 'Boulder'--nvarchar(50)
+set @newOfficer_County3 = 'Arapahoe'--nvarchar(50)
+set @newOfficer_County4 = 'Denver'--nvarchar(50)
+set @newOfficer_County5 = 'Pueblo'--nvarchar(50)
+set @newOfficer_County6 = 'Jefferson'--nvarchar(50)
+set @newOfficer_County7 = 'Adams'--nvarchar(50)
+set @newOfficer_County8 = 'Larimer'--nvarchar(50)
+set @newOfficer_County9 = 'Weld'--nvarchar(50)
+set @newOfficer_County10 = 'El Paso' --nvarchar(50)
+set @newOfficer_street_address = '4016 Red Cedar Dr Highlands Ranch, Co 80126 ' --nvarchar(max)
+set @newOfficer_office_phone_number = '720-390-9863' --nvarchar(50)
+set @newOfficer_cell_phone_number = '720-390-9863' --nvarchar(50)
+set @newOfficer_fax_number = '205-524-2108' --nvarchar(50)
 set @newOfficer_site_effective_date = '07/19/2016' --datetime
-set @newOfficer_nmls_originator_id = '279197' --int
-set @newOfficer_email_address = 'gris.gandara@bbva.com' --nvarchar(50)
-set @newOfficer_main_url = 'mortgage.bbvacompass.com/default.asp?siteId=571D2088-BEB4-4055-950E-45AB820810DF' --nvarchar(max)
-set @newOfficer_alias_url = 'http://www.bbvacompass.com/mortgages/ggandara' --nvarchar(max)
+set @newOfficer_nmls_originator_id = '109858' --int
+set @newOfficer_email_address = 'kelly.daniels@bbva.com' --nvarchar(50)
+set @newOfficer_main_url = 'mortgage.bbvacompass.com/default.asp?siteId=CDE659F0-541C-4646-A554-68E9EEF1E7DB' --nvarchar(max)
+set @newOfficer_alias_url = 'http://www.bbvacompass.com/mortgages/kdaniels' --nvarchar(max)
 set @newOfficer_profile_pic_path = 'https://mortgage.bbvacompass.com/Skins/images/carousel2.jpg' --nvarchar(50)  --https://mortgage.bbvacompass.com/Skins/images/carousel2.jpg
 set @newOfficer_business_hours = '' --nvarchar(50)
 set @newOfficer_site_status = 'Live' --nvarchar(50)
