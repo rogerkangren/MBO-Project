@@ -39,7 +39,7 @@ declare @NMLS_status nvarchar(10)
 
 set @newOfficer_lo_code = '14604' --int
 set @newOfficer_name = 'Chad Montgomery' --nvarchar(50)
-set @newOfficer_State = 'Alabama'--nvarchar(50)
+set @newOfficer_State = 'Alabama'--nvarchar(50)     -- Alabama , Califanaia, Texas, 
 set @newOfficer_County = 'Madison' --nvarchar(50)
 set @newOfficer_County2 = 'DeKalb'--nvarchar(50)
 set @newOfficer_County3 = 'Jackson'--nvarchar(50)
